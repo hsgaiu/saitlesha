@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --granite-dark: #2c2c2c;
+  --granite-medium: #3a3a3a;
+  --granite-light: #4a4a4a;
+  --text-warm: #e2d9d1;
+  --accent-gold: #c4a484;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('https://img.freepik.com/premium-photo/natural-granite-background-with-corrosion-deep-crack-texture-surface_271317-2131.jpg') center/cover fixed;
+  color: var(--text-warm);
+  min-height: 100vh;
+}
+
+.glass-container {
+  background: rgba(44, 44, 44, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(196, 164, 132, 0.2);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.glass-container:hover {
+  background: rgba(58, 58, 58, 0.8);
+  border-color: rgba(196, 164, 132, 0.3);
+}
+
+.product-image-bg {
+  background: radial-gradient(circle at center, var(--granite-medium), var(--granite-dark));
+}
+
+.text-content {
+  color: var(--text-warm);
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}

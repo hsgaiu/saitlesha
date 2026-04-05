@@ -36,12 +36,12 @@ const categories = [
   {
     id: 'crosses',
     title: 'Кресты',
-    image: [new URL('../images/crosses/A1phaCrypt.png', import.meta.url).href],
+    image: [new URL('../images/works/krest2131231231231.png', import.meta.url).href],
   },
   {
     id: 'bences',
     title: 'Лавочки',
-    image: [new URL('../images/bences/A1phaCrypt.png', import.meta.url).href],
+    image: [new URL('../images/works/ByteX9.png', import.meta.url).href],
   },
   {
     id: 'gravestones',

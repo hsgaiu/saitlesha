@@ -13,51 +13,55 @@ export const categories: Category[] = [
       },
       {
         title: 'Пример работы 2',
-        images: [new URL('../images/works/A3onX.png', import.meta.url).href],
-      },
-      {
-        title: 'Пример работы 3',
-        images: [new URL('../images/works/Aeg1sLock.png', import.meta.url).href],
-      },
-      {
-        title: 'Пример работы 4',
         images: [new URL('../images/works/Aether9.png', import.meta.url).href],
       },
       {
-        title: 'Пример работы 5',
+        title: 'Пример работы 3',
         images: [new URL('../images/works/Ax10nCore.png', import.meta.url).href],
       },
       {
-        title: 'Пример работы 6',
+        title: 'Пример работы 4',
         images: [new URL('../images/works/B1tCipher.png', import.meta.url).href],
       },
       {
-        title: 'Пример работы 7',
-        images: [new URL('../images/works/B3taVault.png', import.meta.url).href],
-      },
-      {
-        title: 'Пример работы 8',
+        title: 'Пример работы 5',
         images: [new URL('../images/works/Bl1ndKey.png', import.meta.url).href],
       },
       {
-        title: 'Пример работы 9',
-        images: [new URL('../images/works/ByteX9.png', import.meta.url).href],
+        title: 'Пример работы 6',
+        images: [new URL('../images/works/wprks123.png', import.meta.url).href],
       },
       {
-        title: 'Пример работы 10',
+        title: 'Пример работы 7',
         images: [new URL('../images/works/B0rex.png', import.meta.url).href],
       },
       {
-        title: 'Пример работы 11',
+        title: 'Пример работы 8',
         images: [new URL('../images/works/C1pherNode.png', import.meta.url).href],
       },
       {
+        title: 'Пример работы 9',
+        images: [new URL('../images/works/Cryp7ic.png', import.meta.url).href],
+      },
+      {
+        title: 'Пример работы 10',
+        images: [new URL('../images/works/213432fsfdsf.png', import.meta.url).href],
+      },
+      {
+        title: 'Пример работы 11',
+        images: [new URL('../images/works/1231223.png', import.meta.url).href],
+      },
+      {
         title: 'Пример работы 12',
-        images: [new URL('../images/works/C0dexFlow.png', import.meta.url).href],
+        images: [new URL('../images/works/asadfsdfsdf.png', import.meta.url).href],
       },
       {
         title: 'Пример работы 13',
-        images: [new URL('../images/works/Cryp7ic.png', import.meta.url).href],
+        images: [new URL('../images/works/fsdfsdfsdfsdfsdfs.png', import.meta.url).href],
+      },
+      {
+        title: 'Пример работы 14',
+        images: [new URL('../images/works/sdfsdfsdf.png', import.meta.url).href],
       },
     ]
   },
@@ -69,7 +73,7 @@ export const categories: Category[] = [
     image: 'https://i.ibb.co/cN5Gk9b/3.png',
     products: [
       {
-        images: [new URL('../images/wormon_granks/A1phaCrypt.png', import.meta.url).href],
+        images: [new URL('../images/mon_gran/A1phaCrypt.png', import.meta.url).href],
         title: 'Стандартный гранитный памятник',
       },
       {
@@ -90,15 +94,15 @@ export const categories: Category[] = [
     image: 'https://i.ibb.co/SQJb0fp/3.png',
     products: [
       {
-        images: [new URL('../images/works/A1phaCrypt.png', import.meta.url).href],
+        images: [new URL('../images/mon_mram/A1phaCrypt.png', import.meta.url).href],
         title: 'Стандартный мраморный памятник',
       },
       {
-        images: [new URL('../images/works/A3onX.png', import.meta.url).href],
+        images: [new URL('../images/mon_mram/A3onX.png', import.meta.url).href],
         title: 'Резной мраморный памятник',
       },
       {
-        images: [new URL('../images/works/Aeg1sLock.png', import.meta.url).href],
+        images: [new URL('../images/mon_mram/Aeg1sLock.png', import.meta.url).href],
         title: 'Резной с дополнениями мраморный памятник',
       },
     ],
@@ -651,6 +655,10 @@ export const categories: Category[] = [
     image: 'https://i.ibb.co/Mkv8sJ2/1.png',
     products: [
       {
+        title: 'Крест «К 0»',
+        images: [new URL('../images/works/krest2131231231231.png', import.meta.url).href],
+      },
+      {
         title: 'Крест «К 1»',
         images: [new URL('../images/crosses/A1phaCrypt.png', import.meta.url).href],
         material: 'металл',
@@ -750,6 +758,11 @@ export const categories: Category[] = [
     description: 'Лавочки для скорби рядом с близкими',
     image: 'https://i.ibb.co/JjzS2bv/1.png',
     products: [
+      {
+        title: 'Лавка «Л 0»',
+        images: [new URL('../images/works/ByteX9.png', import.meta.url).href],
+        
+      },
       {
         title: 'Лавка «Л 1.2»',
         images: [new URL('../images/bences/A1phaCrypt.png', import.meta.url).href],
